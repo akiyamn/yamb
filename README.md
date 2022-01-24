@@ -18,7 +18,7 @@ make
 `example.html`, `example2.html` as well as `index.html` will be generated in the same directory.
 
 
-## Prerequisits
+## Prerequisites
 You must be using a Unix-like operating system such as: GNU/Linux, BSD, MacOS; or an environment like WSL on Windows to use these scripts.
 
 ### Required
@@ -30,7 +30,7 @@ You must be using a Unix-like operating system such as: GNU/Linux, BSD, MacOS; o
 
 
 ## Installation
-To install this set of scripts, firstly install the prerequist programs.
+To install this set of scripts, firstly install the Prerequisites programs.
 
 For example:
 
@@ -82,6 +82,10 @@ The script will generate a HTML page from the Markdown file, as well as a chrono
 
 ## Extra features
 The script uses Pandoc for the heavy lifting of converting the Markdown, so all of Pandoc features can be utilised. In theory you could convert from any two document formats supported by Pandoc. Such as ODT or Org-mode.
+
+### Themes
+There are two themes provided with this repo. `theme.css` and `basictheme.css`.
+The main difference is that `basictheme.css` is closer to the vanilla look of HTML, but with adjustments to make templating work.
 
 ### KaTeX equasions
 The use of KaTeX requires a KaTeX installation directory on the server you are deploying to.
