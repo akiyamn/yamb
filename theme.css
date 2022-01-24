@@ -1,0 +1,167 @@
+:root {
+	--bg-col: #151515;
+	--title-col: #fdfdfd;
+	--title-font: sans-serif;
+	--body-col: #fdfdfd;
+	--body-font: sans-serif;
+	--accent-col: #afafaf;
+	--code-bg: #333;
+	--code-font: monospace;
+}
+
+html {
+    font-size: max(1.25em, 0.75vw)
+}
+body {
+	background-color: var(--bg-col);
+	color: var(--body-col);
+}
+#title {
+	font-family: var(--title-font);
+	text-align: center;
+}
+#container {
+	width: min(60%, 60rem);
+	margin: 0 auto;
+	color: var(--body-col);
+	font-family: var(--body-font);
+}
+hr {
+	height: 0.05rem;
+	background-color: #fff;
+	border: 0;
+	border-radius: 2px;
+}
+p {
+	font-size: 1rem;
+}
+a {
+	color: var(--body-col);
+	text-decoration: none;
+}
+code {
+	background-color: var(--code-bg);
+	border-radius: 2px;
+	padding: 0 0.2rem;
+	font-family: var(--code-font);
+}
+.sep {
+	margin: 2em 0;
+	display: block;
+}
+a:hover {
+	text-decoration: underline;
+}
+#bar {
+	font-size: 1.25rem;
+}
+.bar-item {
+	margin-right: 0.4rem;
+}
+.right {
+	float: right;
+}
+td {
+	padding-right: 0.7rem;
+}
+ul {
+	padding-left: 2rem;
+}
+ul li {
+	list-style-type: none;
+	margin: 0.2rem;
+}
+ul li::before {
+	content: "w";
+}
+ol.jp {
+	list-style-type: cjk-ideographic;
+}
+td.python {color: #75f;}
+td.c {color: #ccc;}
+td.typescript {color: #7ef;}
+td.php {color: #f88;}
+h0 {
+	display: block;
+	font-size: 2.5vw;
+	text-align: center;
+	color: var(--title-color);
+	font-family: var(--title-font);
+	margin-top: 1.5rem;
+	margin-bottom: 8px;
+	font-weight: 100;
+}
+h1 {font-size: 2.2rem; margin-top: 3rem; margin-bottom: 0}
+h2 {font-size: 2.0rem; margin-top: 3rem; margin-bottom: 0}
+h3 {font-size: 1.75rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.25rem;}
+
+/* CSS for documents converted via pandoc */
+
+#TOC li {
+    list-style: none;
+}
+#TOC a:not(:hover) {
+    text-decoration: none;
+}
+pre > code.sourceCode {
+    background-color: inherit;
+}
+div.sourceCode {
+    padding: 0.25em;
+    border-radius: 4px;
+}
+figure {
+    text-align: center;
+    font-style: italic;
+    color: var(--accent-col);
+    font-size: 80%;
+}
+blockquote {
+      margin: 1em;
+      padding-left: 1em;
+      border-left: 6px solid var(--body-col);
+      color: var(--accent-col);
+      font-style: italic
+    }
+header {
+    margin-bottom: 4em;
+    text-align: center;
+}
+header > p {
+    margin: 0;
+    font-size: 80%;
+    color: var(--accent-col);
+}
+header > h1.title {
+    font-size: 3em;
+    font-weight: bold;
+}
+header > p.subtitle {
+    font-weight: bold;
+    font-size: 125%;
+    margin: 0.25em;
+}
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+    min-width: 50%;
+    overflow-x: auto;
+    font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+    margin-bottom: 0.75em;
+}
+tbody {
+    margin-top: 0.5em;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+th {
+    border-top: 1px solid #e8e8e8;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+    padding: 0.125em 0.5em 0.25em 0.5em;
+}
