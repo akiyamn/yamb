@@ -8,8 +8,8 @@ REMOTE = user@yourdomain
 REMOTE_DIR = /var/www/html
 PORT = 22
 
-.PHONY: all clean index
-#.PHONY: all clean upload index
+.PHONY: all index
+#.PHONY: all upload index
 
 all: index $(HTML) 
 
